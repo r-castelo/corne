@@ -11,9 +11,6 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-        &nice_view_spi {
-            cs-gpios = <&pro_micro 3 GPIO_ACTIVE_HIGH>;
-        };
         default_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
@@ -63,4 +60,6 @@
         };
     };
 };
-
+&nice_view_spi {
+    cs-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>;
+};
