@@ -21,9 +21,9 @@
 
             label = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y             &mt U KP_NUMBER_1  &mt I KP_NUMBER_2      &mt O KP_NUMBER_3       &kp P                  &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &mt H KP_MINUS    &mt J KP_N4        &mt K KP_NUMBER_5      &mt L KP_NUMBER_6       &kp SEMI               &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &mt N UNDERSCORE  &mt M KP_NUMBER_7  &mt COMMA KP_NUMBER_8  &mt PERIOD KP_NUMBER_9  &mt SLASH KP_NUMBER_0  &kp ESC
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y             &mt KP_NUMBER_1 U  &mt KP_NUMBER_2 I      &mt KP_NUMBER_3 O       &kp P                  &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &mt KP_MINUS H    &mt KP_N4 J        &mt KP_NUMBER_5 K      &mt KP_NUMBER_6 L       &kp SEMI               &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &mt UNDERSCORE N  &mt KP_NUMBER_7 M  &mt KP_NUMBER_8 COMMA  &mt KP_NUMBER_9 PERIOD  &mt KP_NUMBER_0 SLASH  &kp ESC
                          &kp LGUI  &mo 1  &kp ENTER    &kp SPACE         &mo 2              &kp RALT
             >;
         };
